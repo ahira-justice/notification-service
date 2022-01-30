@@ -1,10 +1,10 @@
-package com.ahirajustice.notificationservice.notificationservice;
+package com.ahirajustice.notificationservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NotificationServiceApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
