@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  notification-service:
+    container_name: notification-service
+    image: ${DOCKER_REGISTRY-}notification-service:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
